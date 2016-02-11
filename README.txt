@@ -1,6 +1,7 @@
 SIMULATION TEAM NOTES
 ---------------------
 Team to-do immediately:
+- Pixhawk/ROS tutorial: https://pixhawk.org/dev/ros/getting_started_tutorial
 - Look at Josh's powerpoint
 - ROS and Gazebo tutorials: http://wiki.ros.org/ROS/Tutorials and  http://gazebosim.org/tutorials
 - Doodle poll to determine team work time
