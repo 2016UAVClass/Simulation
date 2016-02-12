@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sitl/UAV_Class/uav_simulation/install/setup.sh

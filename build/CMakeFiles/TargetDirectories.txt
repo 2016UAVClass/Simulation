@@ -1,0 +1,8 @@
+/home/sitl/UAV_Class/uav_simulation/build/CMakeFiles/download_extra_data.dir
+/home/sitl/UAV_Class/uav_simulation/build/gtest/CMakeFiles/gtest.dir
+/home/sitl/UAV_Class/uav_simulation/build/CMakeFiles/clean_test_results_Project.dir
+/home/sitl/UAV_Class/uav_simulation/build/CMakeFiles/tests.dir
+/home/sitl/UAV_Class/uav_simulation/build/CMakeFiles/doxygen.dir
+/home/sitl/UAV_Class/uav_simulation/build/gtest/CMakeFiles/gtest_main.dir
+/home/sitl/UAV_Class/uav_simulation/build/CMakeFiles/clean_test_results.dir
+/home/sitl/UAV_Class/uav_simulation/build/CMakeFiles/run_tests.dir
