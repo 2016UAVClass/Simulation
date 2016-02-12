@@ -1,2 +1,0 @@
-
--DCATKIN_DEVEL_PREFIX=/home/sitl/UAV_Class/uav_simulation/devel -DCMAKE_INSTALL_PREFIX=/home/sitl/UAV_Class/uav_simulation/install -G Unix Makefiles
