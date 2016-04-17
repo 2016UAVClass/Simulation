@@ -4,7 +4,7 @@ project(uav_simulation)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS roscpp)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -122,6 +122,7 @@ catkin_package(
 
 ## Declare a C++ executable
 # add_executable(uav_simulation_node src/uav_simulation_node.cpp)
+add_executable(offb_node scripts/unity_bridge/offb_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -131,6 +132,9 @@ catkin_package(
 # target_link_libraries(uav_simulation_node
 #   ${catkin_LIBRARIES}
 # )
+target_link_libraries(offb_node
+    ${catkin_LIBRARIES}
+)
 
 #############
 ## Install ##
