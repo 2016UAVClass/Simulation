@@ -123,6 +123,7 @@ catkin_package(
 ## Declare a C++ executable
 # add_executable(uav_simulation_node src/uav_simulation_node.cpp)
 add_executable(offb_node scripts/unity_bridge/offb_node.cpp)
+add_executable(unity_px4_bridge_node scripts/unity_bridge/unity_px4_bridge_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -136,6 +137,9 @@ target_link_libraries(offb_node
     ${catkin_LIBRARIES}
 )
 
+target_link_libraries(unity_px4_bridge_node
+    ${catkin_LIBRARIES}
+)
 #############
 ## Install ##
 #############
